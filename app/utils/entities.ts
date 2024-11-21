@@ -1,0 +1,26 @@
+const entities = {
+    SERVICE_URL: '/sap/opu/odata/sap/ZHCG_MITV4_SRV/',
+    DATA_TABLE_ENTITY: '/ZET_DataTableSet',
+    USER_ENTITY: 'ZET_UserInfoSet',
+    PO_HEADER_ENTITY: '/ZET_POHeaderSet',
+    PO_EXPAND: 'ToItems,ToReceipts,ToReturns',
+    WM_STOCK_INQUIRY_HEADER_ENTITY: '/ZET_WMMaterialStockSet',
+    IM_STOCK_INQUIRY_HEADER_ENTITY: '/ZET_MMMaterialStockSet',
+    EWM_STOCK_INQUIRY_HEADER_ENTITY: '/ZET_EWMMaterialStockSet',
+    SERVICE_HOST: 'http://hs4.havensightconsulting.com:8000',
+    SERVICE_HOST_ECC: 'http://ffs.havensightconsulting.com:8080',
+    MATERIAL_DOCUMENT_ENTITY: '/ZET_MaterialDocumentHeaderSet',
+    MATERIAL_ENTITY: '/ZET_MMMaterialSet',
+    EWM_MATERIAL_ENTITY: '/ZET_IMMaterialsSet',
+    TO_HEADER_ENTITY: '/ZET_TransferOrderHeaderSet',
+    TO_ITEM_ENTITY: '/ZET_TransferOrderItemSet',
+    TO_EXPAND: 'ToItems',
+    IM_INVENTORY_HEADER_ENTITY: '/ZET_IMInventoryDocHeaderSet',
+    IM_INVENTORY_EXPAND: 'ToItems',
+    EWM_PUTAWAY_ITEM_ENTITY: '/ZET_WTPutItemSet',
+    EWM_PICK_ITEM_ENTITY: '/ZET_WTPickItemSet',
+    EWM_B2B_ITEM_ENTITY: '/ZET_WTBinToBinItemSet',
+    IM_REVERSAL: '/ZET_GoodsMvtHeaderSet',
+};
+
+export default entities;
